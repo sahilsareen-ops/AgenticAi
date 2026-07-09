@@ -6,7 +6,7 @@ from pydantic import BaseModel, Field, field_validator
 
 
 class Role(str, Enum):
-    admin = "admin"
+    admin = "admins"
     editor = "editor"
     viewer = "viewer"
 
